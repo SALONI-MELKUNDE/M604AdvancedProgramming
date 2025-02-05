@@ -1,16 +1,12 @@
 package lecture2;
 
 public class swaptwono {
-    public static void main(String[] args) {
-        int a = 10;
-        int b = 20;
-        int temp;
+    public static void swapTwoNumbers() {
+        int a = 10, b = 20, temp;
         temp = a;
         a = b;
         b = temp;
-        System.out.println("a: " + a + " b: " + b);
+        System.out.println("After swap - a: " + a + ", b: " + b);
     }
-
-
 
 }
